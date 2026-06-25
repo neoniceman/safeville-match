@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#55acee" />
     <meta name="description" content="세이프빌 게임 규칙, 장애물, 월드 해금 가이드" />
     <title>세이프빌 게임 가이드</title>
-    <link rel="stylesheet" crossorigin href="./assets/guide-_aUEM7Lw.css">
+    <link rel="stylesheet" crossorigin href="./assets/guide-BN2jWpll.css">
   </head>
   <body>
     <main class="guide-shell">
@@ -44,6 +44,23 @@
           <h2>별</h2>
           <p>남은 이동 수가 많을수록 별을 더 받습니다. 최고 별점과 3성 기록은 저장되어 해금에 쓰입니다.</p>
         </article>
+      </section>
+
+      <section class="guide-card live-card">
+        <div class="section-title">
+          <span class="shield-mini"></span>
+          <h2>라이브 서비스 구조</h2>
+        </div>
+        <div class="live-stats">
+          <div><strong>500+</strong><span>10개 월드 × 50 스테이지 카탈로그</span></div>
+          <div><strong>15</strong><span>로켓, 폭탄, AI 드론 등 특수 블록</span></div>
+          <div><strong>20</strong><span>얼음, 화재, 침수, 금고 등 장애물</span></div>
+          <div><strong>100</strong><span>콤보, 출동, 꾸미기, 출석 업적</span></div>
+        </div>
+        <p class="note">
+          목표는 20~50시간 이상 플레이 가능한 장기 구조입니다. 스테이지, 월드, 장애물,
+          캐릭터, 이벤트는 JSON 데이터로 확장하도록 설계했습니다.
+        </p>
       </section>
 
       <section class="guide-card">
@@ -92,14 +109,15 @@
         </div>
         <div class="unlock-track">
           <div><b>자동차</b><span>처음부터 열림</span></div>
-          <div><b>건강</b><span>4클리어 · 별 8개</span></div>
-          <div><b>주택</b><span>6클리어 · 별 14개</span></div>
-          <div><b>펫</b><span>8클리어 · 별 20개</span></div>
-          <div><b>여행</b><span>10클리어 · 별 26개</span></div>
-          <div><b>화재</b><span>12클리어 · 별 32개</span></div>
-          <div><b>어린이</b><span>13클리어 · 별 34개 · 3성 3개</span></div>
-          <div><b>기업</b><span>15클리어 · 별 40개 · 3성 5개</span></div>
-          <div><b>미래 AI</b><span>15클리어 · 별 45개 · 3성 8개</span></div>
+          <div><b>건강</b><span>10클리어 · 별 24개</span></div>
+          <div><b>펫</b><span>25클리어 · 별 60개</span></div>
+          <div><b>여행</b><span>45클리어 · 별 110개 · 3성 8개</span></div>
+          <div><b>주택</b><span>70클리어 · 별 170개 · 3성 15개</span></div>
+          <div><b>기업</b><span>110클리어 · 별 260개 · 3성 28개</span></div>
+          <div><b>AI</b><span>160클리어 · 별 380개 · 레벨 25</span></div>
+          <div><b>미래 도시</b><span>230클리어 · 별 540개 · 레벨 35</span></div>
+          <div><b>우주</b><span>320클리어 · 별 760개 · 3성 90개</span></div>
+          <div><b>시간 여행</b><span>430클리어 · 별 1030개 · 레벨 60</span></div>
         </div>
         <p class="note">
           진행도는 브라우저에 저장됩니다. 같은 스테이지를 다시 플레이해 최고 별점을 갱신하면
@@ -114,15 +132,29 @@
         </div>
         <div class="world-table">
           <div><i>01</i><strong>자동차 보험</strong><span>기본 매치 · 서류 · 얼음</span></div>
-          <div><i>02</i><strong>건강 보험</strong><span>목표 수집 · 이동 수 관리</span></div>
-          <div><i>03</i><strong>주택 보험</strong><span>금고 · 단단한 장애물</span></div>
-          <div><i>04</i><strong>펫 보험</strong><span>구조 미션 · 길 만들기</span></div>
-          <div><i>05</i><strong>여행 보험</strong><span>복합 목표 · 중반 난이도</span></div>
-          <div><i>06</i><strong>화재 보험</strong><span>확산 위험 · 빠른 제거</span></div>
-          <div><i>07</i><strong>어린이 보험</strong><span>보호막 · 제한 이동 수</span></div>
-          <div><i>08</i><strong>기업 보험</strong><span>큰 보드 · 전략 콤보</span></div>
-          <div><i>09</i><strong>미래 AI 보험</strong><span>특수 블록 · 고난도</span></div>
+          <div><i>02</i><strong>건강 보험</strong><span>목표 수집 · 회복 보상</span></div>
+          <div><i>03</i><strong>펫 보험</strong><span>구조 미션 · 길 만들기</span></div>
+          <div><i>04</i><strong>여행 보험</strong><span>복합 목표 · 분실물</span></div>
+          <div><i>05</i><strong>주택 보험</strong><span>금고 · 누수 · 벽</span></div>
+          <div><i>06</i><strong>기업 보험</strong><span>큰 보드 · 전략 콤보</span></div>
+          <div><i>07</i><strong>AI 보험</strong><span>AI 드론 · 데이터 노드</span></div>
+          <div><i>08</i><strong>미래 도시</strong><span>연쇄 장치 · 시간 제한</span></div>
+          <div><i>09</i><strong>우주 보험</strong><span>저중력 · 운석</span></div>
+          <div><i>10</i><strong>시간 여행 보험</strong><span>되감기 · 보스 퍼즐</span></div>
         </div>
+      </section>
+
+      <section class="guide-card">
+        <div class="section-title">
+          <span class="shield-mini"></span>
+          <h2>운영 원칙</h2>
+        </div>
+        <p class="service-goal">
+          이 게임은 단순한 퍼즐 데모가 아니라, 실제로 서비스를 운영하는 모바일 캐주얼 게임 수준의 콘텐츠 확장성을 목표로 한다.
+        </p>
+        <p>
+          코드를 작성하는 것보다 콘텐츠를 추가하기 쉬운 구조를 더 중요하게 설계하라. 게임의 규칙과 데이터는 가능한 한 코드에 하드코딩하지 말고 데이터(JSON 등)로 분리하여, 개발자가 아닌 기획자도 새로운 스테이지와 이벤트를 추가할 수 있게 하라.
+        </p>
       </section>
 
       <nav class="guide-actions" aria-label="가이드 이동">
