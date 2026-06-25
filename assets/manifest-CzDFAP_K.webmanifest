@@ -1,0 +1,9 @@
+{
+  "name": "세이프빌 SafeVille",
+  "short_name": "SafeVille",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eaf7ff",
+  "theme_color": "#55acee",
+  "icons": []
+}
